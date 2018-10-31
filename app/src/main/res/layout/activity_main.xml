@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="283dp"
+            android:gravity="center"
+            android:text="3가지 입력,가져오기" />
+
+        <Button
+            android:id="@+id/buttonInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="정보 입력" />
+
+        <Button
+            android:id="@+id/getButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="정보 가져오기" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
